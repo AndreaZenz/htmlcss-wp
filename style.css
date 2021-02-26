@@ -1,44 +1,103 @@
-/* standard */
+/* reset */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
+    
 }
 
 .clearfix::after{
     content:"";
     display: table;
 }
-/* scatola rosa */
-.pinkbox{
-    background-color: rgb(229,121,230);
-    width: 95%;
-    height: 100px;
-    margin: 30px 0 0 30px;
+
+/* logo */
+.logo-container{
+    width: 100%;
+    margin: 30px;
+}
+    
+.logo-container img{
+    width: 201px;
+    border-right: 1px solid rgb(156,156,156);
+    padding-right: 10px;
+    padding-bottom: 30px;
+}
+   
+header{
+    margin: 0 10% 0 10%;
+    
+}
+    
+/* navbar   */
+li{
+    display: inline-block;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+ nav ul li a{
+    text-decoration: none;
+    color: rgb(156,156,156);
+    display: table-cell;
+    font-size: 20px;
+    font-weight: 400;
+    
+} 
+
+/* primo riquadro */
+.first-box{
+  
+    width: 100%;
+    padding: 0 10% 0 10%;
+    
+} 
+
+.background-image1{
+    background-image: url(img/banner.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 600px;
 
 }
-/* scatola gialla */
-.ochrebox{
-    background-color: rgb(225,214,122);
-    width: 95%;
-    height: 100px;
-    margin: 30px 0 0 30px;
 
+.pad-hero{
+    padding: 350px 800px 100px 100px;
 }
-/* scatola blu */
-.bluebox{
-    background:rgb(0,134,255);
-    width: 95%;
+
+.gray-text{
+    color: gray;
+}
+    
+.f-size40{
+    font-size: 40px;
+    
+}
+
+.f-size20{
+    font-size: 20px;
+}
+
+/* background-leadership */
+.background{
     height: 375px;
-    margin: 30px 0 0 30px;
-
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
 }
+    
+
+
+
 /* colonna du sopra */
 .col-top{
     width: 100%;
-    /* height: 50px; */
-    background-color: rgb(171,207,231);
+    margin-bottom: 30px;
 }
+    
+    
 /* colonna sinistra */
 .col-left{
     width: 22%;
@@ -81,6 +140,25 @@
 .float-left{
     float: left;
 }
+    
+
+
+
+    
+
+     
+    
+    
+    
+
+
+    
+    
+
+
+      
+
+    
 
 
 
