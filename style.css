@@ -1,0 +1,99 @@
+/* standard */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.clearfix::after{
+    content:"";
+    display: table;
+}
+/* scatola rosa */
+.pinkbox{
+    background-color: rgb(229,121,230);
+    width: 95%;
+    height: 100px;
+    margin: 30px 0 0 30px;
+
+}
+/* scatola gialla */
+.ochrebox{
+    background-color: rgb(225,214,122);
+    width: 95%;
+    height: 100px;
+    margin: 30px 0 0 30px;
+
+}
+/* scatola blu */
+.bluebox{
+    background:rgb(0,134,255);
+    width: 95%;
+    height: 375px;
+    margin: 30px 0 0 30px;
+
+}
+/* colonna du sopra */
+.col-top{
+    width: 100%;
+    /* height: 50px; */
+    background-color: rgb(171,207,231);
+}
+/* colonna sinistra */
+.col-left{
+    width: 22%;
+    /* height: 300px; */
+    margin-right: 1%;
+    background-color: rgb(171,207,231);
+}
+/* colonna centrale */
+.col-center{
+    width: 54%;
+    /* height: 300px; */
+    background-color: rgb(171,207,231);
+
+}
+/* colonna destra */
+.col-right{
+    width: 22%;
+    /* height: 300px; */
+    margin-left: 1%;
+    background-color: rgb(171,207,231);
+}
+/* scatola viola */
+.purplebox{
+    background:rgb(136,1,254);
+    width: 95%;
+    height: 50px;
+    margin: 10px 0 0 30px;
+
+}
+
+.row{
+    margin-top: 10px;
+}
+
+
+.float-right{
+    float: right;
+}
+
+.float-left{
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
