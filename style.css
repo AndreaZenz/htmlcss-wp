@@ -10,6 +10,7 @@
 .clearfix::after{
     content:"";
     display: table;
+    clear: both;
 }
 
 /* logo */
@@ -22,12 +23,21 @@
     width: 201px;
     border-right: 1px solid rgb(156,156,156);
     padding-right: 10px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
 }
    
 header{
     margin: 0 10% 0 10%;
     
+}
+
+p{
+    color: gray;
+}
+
+h3{
+    margin-bottom: 10px ;
 }
     
 /* navbar   */
@@ -60,8 +70,9 @@ nav ul li a{
     background-position: center;
     background-size: cover;
     height: 600px;
-
 }
+    
+
 
 .pad-hero{
     padding: 350px 800px 100px 100px;
@@ -69,6 +80,7 @@ nav ul li a{
 
 .gray-text{
     color: gray;
+    
 }
     
 .f-size40{
@@ -91,9 +103,16 @@ nav ul li a{
 
 
 
-/* colonna du sopra */
+/* colonna di sopra */
 .col-top{
     width: 100%;
+    margin-bottom: 30px;
+}
+
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
     margin-bottom: 30px;
 }
     
@@ -103,94 +122,56 @@ nav ul li a{
     width: 20%;
 }
     
-    
-   
 /* colonna centrale */
 .col-center{
     width: 50%;
     margin-left: 5%;
     margin-right: 5%;
 }
-    
-    
 
+#resize-img{
+    width: 600px;
+    height: 300px;
+    margin-left: 80px;
+}
+    
 /* colonna destra */
 .col-right{
     width: 20%;
-    
-}
- 
-.wrapper{
-    width: 100%;
-    overflow: hidden;
-    height: 200px;
-    background-position: center;
-    background-size: contain;
-    margin-bottom: 30px;
 }
 
-    
-    
+.h-300{
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    margin-top: 60px;
+}
+
+
 /* footer */
 footer{
-    text-align: center;
-    height: 100px;
-    line-height: 100px;
+   text-align: center;
+   height: 100px;
+   line-height: 100px;
 }
-    
+   
 #hearts{
-    color: red;
+   color: red;
 }
-    
+   
+
 
 .row{
-    margin-top: 10px;
+   margin-top: 10px;
 }
 
-
 .float-right{
-    float: right;
+   float: right;
 }
 
 .float-left{
-    float: left;
+   float: left;
 }
     
-    
-    
-    
-    
-
-
-
-    
-
-     
-    
-    
-    
-
-
-    
-    
-
-
-      
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+   
