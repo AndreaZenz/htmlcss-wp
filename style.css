@@ -70,12 +70,15 @@ nav ul li a{
     background-position: center;
     background-size: cover;
     height: 600px;
+    
 }
     
 
 
 .pad-hero{
-    padding: 350px 800px 100px 100px;
+    width: 50%;
+    padding-top: 30%;
+    margin-left: 60px;
 }
 
 .gray-text{
